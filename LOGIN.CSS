@@ -1,0 +1,77 @@
+/* Style the login container */
+body{
+    background-color: black;
+}
+.login {
+    border: 1px solid black;
+    width: 400px;
+    height: 700px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(60%);
+    gap: 15px;
+}
+
+/* Heading */
+h1 {
+    font-weight: normal;
+    font-size: 24px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Label */
+label {
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* Input fields */
+input {
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Button */
+button {
+    background: rgb(45, 126, 231);
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: rgb(30, 100, 200);
+}
